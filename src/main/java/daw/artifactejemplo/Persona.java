@@ -20,6 +20,10 @@ public class Persona {
         this.ape1 = ape1;
         this.ape2 = ape2;
     }
+    
+    public void mostrarMensaje(){
+        System.out.println("Hola " + nombre);
+    }
 
     public String getNombre() {
         return nombre;
